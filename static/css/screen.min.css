@@ -1352,7 +1352,7 @@ a:hover {
   width: 25px;
   height: 25px;
   border: 0;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .contact-info__vcard a {
@@ -1885,5 +1885,25 @@ a:hover {
 
 .video_container {
   position: static;
-  margin-left: 23%;
+  padding: 0 120px;
+}
+video{
+  box-shadow: 1px 1px 15px #ccc;
+}
+.flex-container-stretch{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.flex-container-center{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+@media(max-width:768px){
+  .video_container {
+    padding: 0 10px;
+  }
 }
